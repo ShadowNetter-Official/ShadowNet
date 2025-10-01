@@ -1,0 +1,8 @@
+[package]
+name = "new"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+prompted = "0.2.8"
+reqwest = {version = "0.12.23", features = ["blocking"]}
